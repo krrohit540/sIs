@@ -1,5 +1,3 @@
 # sIs
-Student Information System
--> A Student-Teacher Interactive Web Portal
--> Student's details
--> Faculties Assignments and Assessments
+Student Information System (A Student-Teacher Interactive Web Portal)
+It contains Student's details, Faculties Assignments and Assessments ...
