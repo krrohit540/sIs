@@ -1,0 +1,89 @@
+table.table3 {
+    width: 900px;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.7em;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.table3 thead th {
+    padding: 6px 10px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px #fff;
+    border-bottom: 5px solid black;
+}
+
+.table3 thead th:empty {
+    background: transparent;
+    border: none;
+}
+
+
+.table3 thead:nth-child(5) {
+    -moz-border-radius: 0px 5px 0px 0px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.table3 tbody td {
+    padding: 10px;
+}
+
+.table3 tbody tr:nth-child(4) td {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.table3 tbody td:nth-child(even) {
+    background-color: #444;
+    color: #444;
+    border-bottom: 1px solid #444;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.39, rgb(189,189,189)),
+        color-stop(0.7, rgb(224,224,224))
+        );
+    background:-moz-linear-gradient(
+        center bottom,
+        rgb(189,189,189) 39%,
+        rgb(224,224,224) 70%
+        );
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.table3 tbody td:nth-child(odd) {
+    background-color: #555;
+    color: #f0f0f0;
+    border-bottom: 1px solid #444;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.39, rgb(85,85,85)),
+        color-stop(0.7, rgb(105,105,105))
+        );
+    background:-moz-linear-gradient(
+        center bottom,
+        rgb(85,85,85) 39%,
+        rgb(105,105,105) 70%
+        );
+    text-shadow:1px 1px 1px #000;
+}
+
+.table3 tbody td:nth-last-child(1) {
+    border-right: 1px solid #222;
+}
+
+.table3 tbody th {
+    color: #696969;
+    text-align: right;
+    padding: 0px 10px;
+    border-right: 1px solid #aaa;
+}
